@@ -9,7 +9,7 @@
 
 body {
     background-color: #ececec;
-    background-image: url(/images/bg-top.svg);
+    background-image: url(./images/bg-top.svg);
     font-size: 15px;
 }
 
@@ -90,95 +90,99 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
-.card1,
-.card2,
-.card3 {
-    width: 90%;
-    height: 500px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 12px;
-}
+@media screen and (min-width: 375px) {
 
-.card1,
-.card3 {
-    margin-top: 60px;
-    background-color: rgb(255, 255, 255);
-    color: hsl(233, 13%, 49%);
-}
+    .card1,
+    .card2,
+    .card3 {
+        width: 90%;
+        height: 500px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 12px;
+    }
 
-hr {
-    width: 270px;
-    margin: auto;
-    border: 1 solid gray;
-}
+    .card1,
+    .card3 {
+        margin-top: 60px;
+        background-color: rgb(255, 255, 255);
+        color: hsl(233, 13%, 49%);
+    }
 
-.texto1-gray {
-    text-align: center;
-    padding: 30px 0;
-    color: hsl(233, 13%, 49%);
-}
+    hr {
+        width: 270px;
+        margin: auto;
+        border: 1 solid gray;
+    }
 
-.texto1-white {
-    text-align: center;
-    padding: 30px 0;
-}
+    .texto1-gray {
+        text-align: center;
+        padding: 30px 0;
+        color: hsl(233, 13%, 49%);
+    }
 
-.preco-gray {
-    text-align: center;
-    padding: 0 0 25px 0;
-    font-size: 3.6rem;
-    color: hsl(232, 13%, 33%);
-}
+    .texto1-white {
+        text-align: center;
+        padding: 30px 0;
+    }
 
-.preco-white {
-    text-align: center;
-    padding: 0 0 25px 0;
-    font-size: 3.6rem;
-}
+    .preco-gray {
+        text-align: center;
+        padding: 0 0 25px 0;
+        font-size: 3.6rem;
+        color: hsl(232, 13%, 33%);
+    }
 
-.texto2,
-.texto3,
-.texto4 {
-    text-align: center;
-    padding: 25px;
-}
+    .preco-white {
+        text-align: center;
+        padding: 0 0 25px 0;
+        font-size: 3.6rem;
+    }
 
-.botao-info,
-.botao-info2 {
-    display: flex;
-    justify-content: center;
-}
+    .texto2,
+    .texto3,
+    .texto4 {
+        text-align: center;
+        padding: 25px;
+    }
 
-button {
-    margin-top: 25px;
-    width: 270px;
-    height: 40px;
-    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-    border-radius: 10px;
-    border: 0px;
-    color: white;
-}
+    .botao-info,
+    .botao-info2 {
+        display: flex;
+        justify-content: center;
+    }
 
-.card2 {
-    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-    color: white;
-}
+    button {
+        margin-top: 25px;
+        width: 270px;
+        height: 40px;
+        background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+        border-radius: 10px;
+        border: 0px;
+        color: white;
+    }
 
-.botao-info2 button {
-    margin-top: 25px;
-    width: 270px;
-    height: 40px;
-    background: white;
-    color: hsl(237, 63%, 64%);
-}
+    .card2 {
+        background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+        color: white;
+    }
 
-.cores {
-    background-color: hsl(240, 78%, 98%);
-    color: hsl(234, 14%, 74%);
-}
+    .botao-info2 button {
+        margin-top: 25px;
+        width: 270px;
+        height: 40px;
+        background: white;
+        color: hsl(237, 63%, 64%);
+    }
 
-.cores2 {
-    background-color: hsl(233, 13%, 49%);
-    color: hsl(232, 13%, 33%);
+    .cores {
+        background-color: hsl(240, 78%, 98%);
+        color: hsl(234, 14%, 74%);
+    }
+
+    .cores2 {
+        background-color: hsl(233, 13%, 49%);
+        color: hsl(232, 13%, 33%);
+    }
+
 }

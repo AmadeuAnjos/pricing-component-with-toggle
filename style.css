@@ -4,25 +4,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #ececec;
+    background-image: url(/images/bg-top.svg);
     font-size: 15px;
 }
 
-#teste {
-    rotate: 180deg;
-    margin-top: -100px;
-    margin-left: 100px;
-    position: fixed;
-}
-
 header {
-    font-family: 'Montserrat', sans-serif;
     color: hsl(233, 13%, 49%);
     text-align: center;
     padding: 30px 0;
+}
+
+.menu {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(234, 14%, 74%);
+}
+
+.botao {
+    padding: 0 20px;
 }
 
 .switch {
@@ -32,14 +38,12 @@ header {
     height: 24px;
 }
 
-/* Hide default HTML checkbox */
 .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
 
-/* The slider */
 .slider {
     position: absolute;
     cursor: pointer;
@@ -78,11 +82,103 @@ input:checked+.slider:before {
     transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
     border-radius: 34px;
 }
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.card1,
+.card3 {
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    color: hsl(233, 13%, 49%);
+}
+
+hr {
+    width: 270px;
+    margin: auto;
+    border: 1 solid gray;
+}
+
+.texto1-gray {
+    text-align: center;
+    padding: 30px 0;
+    color: hsl(233, 13%, 49%);
+}
+
+.texto1-white {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.preco-gray {
+    text-align: center;
+    padding: 0 0 25px 0;
+    font-size: 3.6rem;
+    color: hsl(232, 13%, 33%);
+}
+
+.preco-white {
+    text-align: center;
+    padding: 0 0 25px 0;
+    font-size: 3.6rem;
+}
+
+.texto2,
+.texto3,
+.texto4 {
+    text-align: center;
+    padding: 25px;
+}
+
+.botao-info,
+.botao-info2 {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 25px;
+    width: 270px;
+    height: 40px;
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+}
+
+.card2 {
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+}
+
+.botao-info2 button {
+    margin-top: 25px;
+    width: 270px;
+    height: 40px;
+    background: white;
+    color: hsl(237, 63%, 64%);
+}
+
+.cores {
+    background-color: hsl(240, 78%, 98%);
+    color: hsl(234, 14%, 74%);
+}
+
+.cores2 {
+    background-color: hsl(233, 13%, 49%);
+    color: hsl(232, 13%, 33%);
 }

@@ -16,3 +16,5 @@ Minha idéia é criar uma página surgiu para aumentar meu portfólio e agregar 
 - [X] Desenvolver first Moblie
 - [ ] Implementar dark theme
 - [ ] Implementar sersão em inglês
+
+![first-mobile](https://user-images.githubusercontent.com/53497771/216394255-532f414e-abad-4c95-83b1-9fa54b0d0b20.png)

@@ -12,6 +12,9 @@ My idea is to create a page has emerged to increase my portfolio and add even mo
 - [ ] Assign the method change value in the button that changes values.
 
 ## Extra
-- [X] Develop first Moblie
-- [ ] Implement dark theme
-- [ ] Implement Version in english
+- [X] Develop first mobile.
+- [ ] Implement dark theme.
+- [ ] Implement version in english.
+
+
+![first-mobile](https://user-images.githubusercontent.com/53497771/216394255-532f414e-abad-4c95-83b1-9fa54b0d0b20.png)

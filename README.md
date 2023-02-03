@@ -11,7 +11,6 @@ Minha idéia é criar uma página surgiu para aumentar meu portfólio e agregar 
 - [X] Criar método que mude os valores mensais para anuais.
 - [ ] Modificar cards para tela de 1200px.
 
-
 ## Extras 
 - [X] Desenvolver first mobile.
 - [ ] Implementar dark theme.

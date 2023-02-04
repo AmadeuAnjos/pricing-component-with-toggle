@@ -17,4 +17,8 @@ My idea is to create a page has emerged to increase my portfolio and add even mo
 - [ ] Implement version in english.
 
 
+## Screen mobile
 ![first-mobile](https://user-images.githubusercontent.com/53497771/216394255-532f414e-abad-4c95-83b1-9fa54b0d0b20.png)
+
+## Screen min 800px
+![image](https://user-images.githubusercontent.com/53497771/216784260-c6785129-9312-45a4-9e87-12a7ce0f593b.png)

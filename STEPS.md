@@ -1,7 +1,8 @@
 ### Pricing component with toggle
 
 ## Idea
-My idea is to create a page has emerged to increase my portfolio and add even more knowledge.
+My idea of creating this page was to increase my portfolio and add even more knowledge. 
+Page developed to show values, amount of GB available for each plan and for a certain amount of users, for internet plan.
 
 ## Goals
 - [X] Create page with cards for monthly and yearly values.

@@ -9,10 +9,13 @@
 
 body {
     background-color: #ececec;
-    background-image: url(./images/bg-top.svg);
-    background-repeat: no-repeat;
-    background-position: right;
     font-size: 15px;
+}
+
+#top {
+    position: absolute;
+    right: 0;
+    z-index: -1;
 }
 
 #bottom {
@@ -36,8 +39,16 @@ header {
     color: hsl(234, 14%, 74%);
 }
 
+#darkii {
+    margin-right: 10px;
+}
+
+.dark {
+    margin-right: 25px;
+}
+
 .botao {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .switch {
@@ -101,10 +112,15 @@ input:checked+.slider:before {
 
 @media screen and (max-width: 800px) {
 
-    body {
-        background-position: top -50px right -180px;
+    #top {
+        width: 100vh;
+        margin-top: -105px;
+        left: 80px;
     }
 
+    #bottom {
+        display: none;
+    }
 
     .card1,
     .card2,

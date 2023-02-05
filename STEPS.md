@@ -14,8 +14,7 @@ Page developed to show values, amount of GB available for each plan and for a ce
 
 ## Extra
 - [X] Develop first mobile.
-- [ ] Implement dark theme.
-- [ ] Implement version in english.
+- [X] Implement dark theme.
 
 
 ## Screen mobile

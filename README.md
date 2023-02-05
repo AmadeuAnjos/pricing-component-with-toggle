@@ -14,8 +14,7 @@ Página desenvolvida para mostrar valores, quantidade de GB disponível para cad
 
 ## Extras 
 - [X] Desenvolver first mobile.
-- [ ] Implementar dark theme.
-- [ ] Implementar versão em inglês.
+- [X] Implementar dark theme.
 
 ## Tela mobile
 ![first-mobile](https://user-images.githubusercontent.com/53497771/216394255-532f414e-abad-4c95-83b1-9fa54b0d0b20.png)

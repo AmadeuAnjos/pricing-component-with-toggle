@@ -9,7 +9,7 @@ Minha idéia é criar uma página surgiu para aumentar meu portfólio e agregar 
 - [X] Criar 3 cards para mobile.
 - [X] Criar botão para mais informações.
 - [X] Criar método que mude os valores mensais para anuais.
-- [ ] Modificar cards para tela de 1200px.
+- [X] Modificar cards para tela de 1200px.
 
 ## Extras 
 - [X] Desenvolver first mobile.

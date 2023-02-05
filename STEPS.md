@@ -9,7 +9,7 @@ My idea is to create a page has emerged to increase my portfolio and add even mo
 - [X] Create 3 cards for mobile.
 - [X] Create button for more information.
 - [X] Create method that changes the monthly values to yearly.
-- [ ] Change cards for screen 1200px .
+- [X] Change cards for screen 1200px .
 
 ## Extra
 - [X] Develop first mobile.

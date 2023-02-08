@@ -113,13 +113,20 @@ input:checked+.slider:before {
 @media screen and (max-width: 800px) {
 
     #top {
+        max-width: 375px;
+        position: fixed;
         width: 100vh;
-        margin-top: -105px;
-        left: 80px;
+        left: 230px;
+        top: -30px;
     }
 
     #bottom {
         display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
     }
 
     .card1,

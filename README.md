@@ -1,8 +1,8 @@
 ### Componente de precificação com toggle 
 
 ## Idéia 
-Minha idéia de criar essa página surgiu para aumentar meu portfólio e agregar ainda mais conhecimento. 
-Página desenvolvida para mostrar valores, quantidade de GB disponível para cada plano e para certa quantidade de usários, para plano de internet.
+Minha ideia de criar essa página surgiu para aumentar meu portfólio e agregar ainda mais conhecimento. 
+Página desenvolvida para mostrar valores, quantidade de GB disponível para cada plano e para certa quantidade de usuários, para plano de internet.
 
 ## Objetivos
 - [X] Criar página com cards para valores mensais e anuais.
